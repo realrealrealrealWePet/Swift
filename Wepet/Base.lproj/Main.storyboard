@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QTT-bt-2uJ">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main Tab View Controller-->
+        <scene sceneID="JwJ-na-8Iv">
+            <objects>
+                <tabBarController storyboardIdentifier="MainTabViewController" automaticallyAdjustsScrollViewInsets="NO" id="QTT-bt-2uJ" customClass="MainTabViewController" customModule="Wepet" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="P1S-DR-Kg8">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="wZM-DD-PnZ" kind="relationship" relationship="viewControllers" id="KTE-Tm-gBm"/>
+                        <segue destination="K8a-ir-QQl" kind="relationship" relationship="viewControllers" id="d9L-76-KIP"/>
+                        <segue destination="1at-x3-3fu" kind="relationship" relationship="viewControllers" id="X4R-iy-2p6"/>
+                        <segue destination="Bb7-Aq-KFO" kind="relationship" relationship="viewControllers" id="0o0-gC-BcQ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fEy-5k-w9b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="saF-fb-OUK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wZM-DD-PnZ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="Wepet_Walk" id="Ijv-84-aWx">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jNq-dq-5fy">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="mcT-in-xAu" kind="relationship" relationship="rootViewController" id="sYs-Jf-pDw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0p9-G2-nyR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1198" y="-1029"/>
+        </scene>
+        <!--WalkVC-->
+        <scene sceneID="OGu-7I-LxT">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Walk" referencedIdentifier="WalkVC" id="mcT-in-xAu" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="bLi-La-VQb"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tzn-zF-YVD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1883" y="-1030"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4mH-Ul-Zzf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="K8a-ir-QQl" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="Wepet_Community" id="Uhc-za-x09">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="07N-fI-Wqv">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="YqU-fI-7Lt" kind="relationship" relationship="rootViewController" id="RSv-R1-Fap"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4EB-cF-QYU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1197.709923664122" y="-357.04225352112678"/>
+        </scene>
+        <!--CommunityVC-->
+        <scene sceneID="egE-Me-6mj">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Community" referencedIdentifier="CommunityVC" id="YqU-fI-7Lt" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Kvx-27-iiW"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ekt-wI-hVJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1883" y="-357"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QgZ-I4-2cA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1at-x3-3fu" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="Wepet_Chatting" id="272-Xs-wD5">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DTH-NN-j5p">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dg2-oy-sqt" kind="relationship" relationship="rootViewController" id="LSI-xY-dnw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZtG-mo-Njb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1197.709923664122" y="310.56338028169017"/>
+        </scene>
+        <!--ChattingVC-->
+        <scene sceneID="T9q-HZ-Bnw">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Chatting" referencedIdentifier="ChattingVC" id="dg2-oy-sqt" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="EmX-ah-7MC"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YEF-nt-LE3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1883" y="311"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gB7-wH-tvm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Bb7-Aq-KFO" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="Wepet_Home" id="UHJ-vC-Zc8">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VuG-OM-C5v">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lyo-6J-pPu" kind="relationship" relationship="rootViewController" id="2xL-Eq-wby"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PG6-px-73b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1197.709923664122" y="977.46478873239437"/>
+        </scene>
+        <!--MyHomeVC-->
+        <scene sceneID="yeM-2h-sB8">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MyHome" referencedIdentifier="MyHomeVC" id="lyo-6J-pPu" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="2AE-AO-jH1"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gSX-wd-ShC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1883" y="977"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Wepet_Chatting" width="28" height="28"/>
+        <image name="Wepet_Community" width="28" height="28"/>
+        <image name="Wepet_Home" width="28" height="28"/>
+        <image name="Wepet_Walk" width="27.5" height="28"/>
+    </resources>
+</document>

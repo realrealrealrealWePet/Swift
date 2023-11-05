@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07540D2051E0FA8EC20E0E86 /* Pods_Wepet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499272898FE89C51050D3D68 /* Pods_Wepet.framework */; };
+		C725F5202AC836550096C6D3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C725F51F2AC836550096C6D3 /* LoginViewController.swift */; };
+		C725F5222AC836610096C6D3 /* UserJoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C725F5212AC836610096C6D3 /* UserJoinViewController.swift */; };
+		C725F5242AC836680096C6D3 /* PetJoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C725F5232AC836680096C6D3 /* PetJoinViewController.swift */; };
+		C725F5262AC837360096C6D3 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C725F5252AC837360096C6D3 /* MainTabViewController.swift */; };
+		C75DC4902AB4588A00DD283C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75DC48F2AB4588A00DD283C /* AppDelegate.swift */; };
+		C75DC4922AB4588A00DD283C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75DC4912AB4588A00DD283C /* SceneDelegate.swift */; };
+		C75DC4942AB4588A00DD283C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75DC4932AB4588A00DD283C /* ViewController.swift */; };
+		C75DC4972AB4588A00DD283C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75DC4952AB4588A00DD283C /* Main.storyboard */; };
+		C75DC4992AB4588C00DD283C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75DC4982AB4588C00DD283C /* Assets.xcassets */; };
+		C75DC49C2AB4588C00DD283C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75DC49A2AB4588C00DD283C /* LaunchScreen.storyboard */; };
+		C75DC4A52AB5C3FC00DD283C /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75DC4A42AB5C3FC00DD283C /* Login.storyboard */; };
+		C7B3C9B72AC9721600A5A497 /* Walk.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7B3C9B62AC9721600A5A497 /* Walk.storyboard */; };
+		C7B3C9B92AC9721F00A5A497 /* Community.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7B3C9B82AC9721F00A5A497 /* Community.storyboard */; };
+		C7B3C9BB2AC9722700A5A497 /* Chatting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7B3C9BA2AC9722700A5A497 /* Chatting.storyboard */; };
+		C7B3C9BD2AC9722F00A5A497 /* MyHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7B3C9BC2AC9722F00A5A497 /* MyHome.storyboard */; };
+		C7B3C9BF2AC9724400A5A497 /* WalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B3C9BE2AC9724400A5A497 /* WalkViewController.swift */; };
+		C7B3C9C12AC9724F00A5A497 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B3C9C02AC9724F00A5A497 /* CommunityViewController.swift */; };
+		C7B3C9C32AC9725900A5A497 /* ChattingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B3C9C22AC9725900A5A497 /* ChattingViewController.swift */; };
+		C7B3C9C52AC9726300A5A497 /* MyHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B3C9C42AC9726300A5A497 /* MyHomeViewController.swift */; };
+		C7B585F92ACC222D007934F2 /* EditUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B585F82ACC222D007934F2 /* EditUserViewController.swift */; };
+		C7B585FB2ACC223D007934F2 /* EditPetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B585FA2ACC223D007934F2 /* EditPetViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F6B776A2BACFCA24CCE2AD5 /* Pods-Wepet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wepet.release.xcconfig"; path = "Target Support Files/Pods-Wepet/Pods-Wepet.release.xcconfig"; sourceTree = "<group>"; };
+		499272898FE89C51050D3D68 /* Pods_Wepet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wepet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C725F51F2AC836550096C6D3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C725F5212AC836610096C6D3 /* UserJoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserJoinViewController.swift; sourceTree = "<group>"; };
+		C725F5232AC836680096C6D3 /* PetJoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetJoinViewController.swift; sourceTree = "<group>"; };
+		C725F5252AC837360096C6D3 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		C75DC48C2AB4588A00DD283C /* Wepet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wepet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75DC48F2AB4588A00DD283C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C75DC4912AB4588A00DD283C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C75DC4932AB4588A00DD283C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C75DC4962AB4588A00DD283C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C75DC4982AB4588C00DD283C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C75DC49B2AB4588C00DD283C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C75DC49D2AB4588C00DD283C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C75DC4A42AB5C3FC00DD283C /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		C7B3C9B62AC9721600A5A497 /* Walk.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Walk.storyboard; sourceTree = "<group>"; };
+		C7B3C9B82AC9721F00A5A497 /* Community.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Community.storyboard; sourceTree = "<group>"; };
+		C7B3C9BA2AC9722700A5A497 /* Chatting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chatting.storyboard; sourceTree = "<group>"; };
+		C7B3C9BC2AC9722F00A5A497 /* MyHome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyHome.storyboard; sourceTree = "<group>"; };
+		C7B3C9BE2AC9724400A5A497 /* WalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkViewController.swift; sourceTree = "<group>"; };
+		C7B3C9C02AC9724F00A5A497 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		C7B3C9C22AC9725900A5A497 /* ChattingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingViewController.swift; sourceTree = "<group>"; };
+		C7B3C9C42AC9726300A5A497 /* MyHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHomeViewController.swift; sourceTree = "<group>"; };
+		C7B585F82ACC222D007934F2 /* EditUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserViewController.swift; sourceTree = "<group>"; };
+		C7B585FA2ACC223D007934F2 /* EditPetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPetViewController.swift; sourceTree = "<group>"; };
+		D24CEC8FA47DBB601F363510 /* Pods-Wepet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wepet.debug.xcconfig"; path = "Target Support Files/Pods-Wepet/Pods-Wepet.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C75DC4892AB4588A00DD283C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07540D2051E0FA8EC20E0E86 /* Pods_Wepet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8B6671E8C918FE038D6220E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				499272898FE89C51050D3D68 /* Pods_Wepet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA0D1D1B8DFA2CB95000C3B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D24CEC8FA47DBB601F363510 /* Pods-Wepet.debug.xcconfig */,
+				2F6B776A2BACFCA24CCE2AD5 /* Pods-Wepet.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C75DC4832AB4588A00DD283C = {
+			isa = PBXGroup;
+			children = (
+				C75DC48E2AB4588A00DD283C /* Wepet */,
+				C75DC48D2AB4588A00DD283C /* Products */,
+				BA0D1D1B8DFA2CB95000C3B0 /* Pods */,
+				A8B6671E8C918FE038D6220E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C75DC48D2AB4588A00DD283C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C75DC48C2AB4588A00DD283C /* Wepet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C75DC48E2AB4588A00DD283C /* Wepet */ = {
+			isa = PBXGroup;
+			children = (
+				C7B3C9B52AC9720300A5A497 /* Walk */,
+				C7B3C9B42AC971F900A5A497 /* Community */,
+				C7B3C9B32AC971E700A5A497 /* Chatting */,
+				C7B3C9B22AC971DD00A5A497 /* MyHome */,
+				C75DC4A32AB5C3E100DD283C /* Login */,
+				C75DC48F2AB4588A00DD283C /* AppDelegate.swift */,
+				C75DC4912AB4588A00DD283C /* SceneDelegate.swift */,
+				C75DC4932AB4588A00DD283C /* ViewController.swift */,
+				C75DC4952AB4588A00DD283C /* Main.storyboard */,
+				C75DC4982AB4588C00DD283C /* Assets.xcassets */,
+				C75DC49A2AB4588C00DD283C /* LaunchScreen.storyboard */,
+				C75DC49D2AB4588C00DD283C /* Info.plist */,
+				C725F5252AC837360096C6D3 /* MainTabViewController.swift */,
+			);
+			path = Wepet;
+			sourceTree = "<group>";
+		};
+		C75DC4A32AB5C3E100DD283C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C75DC4A42AB5C3FC00DD283C /* Login.storyboard */,
+				C725F51F2AC836550096C6D3 /* LoginViewController.swift */,
+				C725F5212AC836610096C6D3 /* UserJoinViewController.swift */,
+				C725F5232AC836680096C6D3 /* PetJoinViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C7B3C9B22AC971DD00A5A497 /* MyHome */ = {
+			isa = PBXGroup;
+			children = (
+				C7B3C9BC2AC9722F00A5A497 /* MyHome.storyboard */,
+				C7B3C9C42AC9726300A5A497 /* MyHomeViewController.swift */,
+				C7B585F82ACC222D007934F2 /* EditUserViewController.swift */,
+				C7B585FA2ACC223D007934F2 /* EditPetViewController.swift */,
+			);
+			path = MyHome;
+			sourceTree = "<group>";
+		};
+		C7B3C9B32AC971E700A5A497 /* Chatting */ = {
+			isa = PBXGroup;
+			children = (
+				C7B3C9BA2AC9722700A5A497 /* Chatting.storyboard */,
+				C7B3C9C22AC9725900A5A497 /* ChattingViewController.swift */,
+			);
+			path = Chatting;
+			sourceTree = "<group>";
+		};
+		C7B3C9B42AC971F900A5A497 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				C7B3C9B82AC9721F00A5A497 /* Community.storyboard */,
+				C7B3C9C02AC9724F00A5A497 /* CommunityViewController.swift */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		C7B3C9B52AC9720300A5A497 /* Walk */ = {
+			isa = PBXGroup;
+			children = (
+				C7B3C9B62AC9721600A5A497 /* Walk.storyboard */,
+				C7B3C9BE2AC9724400A5A497 /* WalkViewController.swift */,
+			);
+			path = Walk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C75DC48B2AB4588A00DD283C /* Wepet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75DC4A02AB4588C00DD283C /* Build configuration list for PBXNativeTarget "Wepet" */;
+			buildPhases = (
+				80C1D79AB8F3B3D149F279A8 /* [CP] Check Pods Manifest.lock */,
+				C75DC4882AB4588A00DD283C /* Sources */,
+				C75DC4892AB4588A00DD283C /* Frameworks */,
+				C75DC48A2AB4588A00DD283C /* Resources */,
+				8D2333A5E08071C0871423D3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wepet;
+			productName = Wepet;
+			productReference = C75DC48C2AB4588A00DD283C /* Wepet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C75DC4842AB4588A00DD283C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C75DC48B2AB4588A00DD283C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C75DC4872AB4588A00DD283C /* Build configuration list for PBXProject "Wepet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C75DC4832AB4588A00DD283C;
+			productRefGroup = C75DC48D2AB4588A00DD283C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C75DC48B2AB4588A00DD283C /* Wepet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C75DC48A2AB4588A00DD283C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B3C9B92AC9721F00A5A497 /* Community.storyboard in Resources */,
+				C75DC4A52AB5C3FC00DD283C /* Login.storyboard in Resources */,
+				C75DC49C2AB4588C00DD283C /* LaunchScreen.storyboard in Resources */,
+				C75DC4992AB4588C00DD283C /* Assets.xcassets in Resources */,
+				C75DC4972AB4588A00DD283C /* Main.storyboard in Resources */,
+				C7B3C9BB2AC9722700A5A497 /* Chatting.storyboard in Resources */,
+				C7B3C9B72AC9721600A5A497 /* Walk.storyboard in Resources */,
+				C7B3C9BD2AC9722F00A5A497 /* MyHome.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80C1D79AB8F3B3D149F279A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wepet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D2333A5E08071C0871423D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wepet/Pods-Wepet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wepet/Pods-Wepet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wepet/Pods-Wepet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C75DC4882AB4588A00DD283C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C725F5242AC836680096C6D3 /* PetJoinViewController.swift in Sources */,
+				C7B3C9BF2AC9724400A5A497 /* WalkViewController.swift in Sources */,
+				C7B3C9C12AC9724F00A5A497 /* CommunityViewController.swift in Sources */,
+				C7B585F92ACC222D007934F2 /* EditUserViewController.swift in Sources */,
+				C725F5202AC836550096C6D3 /* LoginViewController.swift in Sources */,
+				C725F5222AC836610096C6D3 /* UserJoinViewController.swift in Sources */,
+				C75DC4942AB4588A00DD283C /* ViewController.swift in Sources */,
+				C7B3C9C32AC9725900A5A497 /* ChattingViewController.swift in Sources */,
+				C75DC4902AB4588A00DD283C /* AppDelegate.swift in Sources */,
+				C7B3C9C52AC9726300A5A497 /* MyHomeViewController.swift in Sources */,
+				C7B585FB2ACC223D007934F2 /* EditPetViewController.swift in Sources */,
+				C725F5262AC837360096C6D3 /* MainTabViewController.swift in Sources */,
+				C75DC4922AB4588A00DD283C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C75DC4952AB4588A00DD283C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C75DC4962AB4588A00DD283C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C75DC49A2AB4588C00DD283C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C75DC49B2AB4588C00DD283C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C75DC49E2AB4588C00DD283C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C75DC49F2AB4588C00DD283C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C75DC4A12AB4588C00DD283C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D24CEC8FA47DBB601F363510 /* Pods-Wepet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8ZX684WX2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wepet/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JKPARK.Wepet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C75DC4A22AB4588C00DD283C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6B776A2BACFCA24CCE2AD5 /* Pods-Wepet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8ZX684WX2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wepet/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JKPARK.Wepet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C75DC4872AB4588A00DD283C /* Build configuration list for PBXProject "Wepet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75DC49E2AB4588C00DD283C /* Debug */,
+				C75DC49F2AB4588C00DD283C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C75DC4A02AB4588C00DD283C /* Build configuration list for PBXNativeTarget "Wepet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75DC4A12AB4588C00DD283C /* Debug */,
+				C75DC4A22AB4588C00DD283C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C75DC4842AB4588A00DD283C /* Project object */;
+}
