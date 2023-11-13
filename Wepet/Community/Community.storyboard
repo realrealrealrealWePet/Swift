@@ -51,7 +51,7 @@
                                 <rect key="frame" x="0.0" y="120" width="393" height="732"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="80" id="j8z-t3-5lv">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Community_TableViewCell" rowHeight="80" id="j8z-t3-5lv" customClass="CommunityTableViewCell" customModule="Wepet" customModuleProvider="target">
                                         <rect key="frame" x="20" y="55.333332061767578" width="353" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="j8z-t3-5lv" id="f8u-Vi-R24">
@@ -92,10 +92,10 @@
             </objects>
             <point key="canvasLocation" x="20.610687022900763" y="-34.507042253521128"/>
         </scene>
-        <!--View Controller-->
+        <!--Community Writing View Controller-->
         <scene sceneID="mpU-1d-75X">
             <objects>
-                <viewController id="l0q-1t-hh6" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CommunityWritingVC" id="l0q-1t-hh6" customClass="CommunityWritingViewController" customModule="Wepet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5eR-CN-gNN">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -215,10 +215,10 @@
             </objects>
             <point key="canvasLocation" x="743" y="-35"/>
         </scene>
-        <!--View Controller-->
+        <!--Community Post View Controller-->
         <scene sceneID="3dy-Le-Bo8">
             <objects>
-                <viewController id="Gcv-fD-rSV" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CommunityPostVC" id="Gcv-fD-rSV" customClass="CommunityPostViewController" customModule="Wepet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d7b-c2-9FB">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -292,7 +292,7 @@
                                 <rect key="frame" x="0.0" y="291.66666666666669" width="393" height="560.33333333333326"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="6H6-JS-iLN">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommunityPost_TableViewCell" id="6H6-JS-iLN" customClass="CommunityPostTableViewCell" customModule="Wepet" customModuleProvider="target">
                                         <rect key="frame" x="20" y="55.333332061767578" width="353" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6H6-JS-iLN" id="DIN-9U-KJ2">
@@ -317,7 +317,7 @@
                                     <constraint firstAttribute="width" constant="50" id="YbR-LU-AZM"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="전송" cornerStyle="medium">
+                                <buttonConfiguration key="configuration" style="filled" title="등록" cornerStyle="medium">
                                     <fontDescription key="titleFontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="15"/>
                                     <color key="baseBackgroundColor" name="MainColor1"/>
                                 </buttonConfiguration>
@@ -371,10 +371,10 @@
             </objects>
             <point key="canvasLocation" x="1461.8320610687022" y="-35.211267605633807"/>
         </scene>
-        <!--View Controller-->
+        <!--Alba Hae View Controller-->
         <scene sceneID="lDH-XO-pzG">
             <objects>
-                <viewController id="BY0-mG-HQX" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AlbaHaeVC" id="BY0-mG-HQX" customClass="AlbaHaeViewController" customModule="Wepet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2R0-OO-N78">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -413,7 +413,7 @@
                                 <rect key="frame" x="0.0" y="120" width="393" height="732"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="c4S-FU-fs5">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AlbaHae_TableViewCell" id="c4S-FU-fs5" customClass="AlbaHaeTableViewCell" customModule="Wepet" customModuleProvider="target">
                                         <rect key="frame" x="20" y="55.333332061767578" width="353" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="c4S-FU-fs5" id="PrS-dO-Rf6">
@@ -454,10 +454,10 @@
             </objects>
             <point key="canvasLocation" x="21" y="631"/>
         </scene>
-        <!--View Controller-->
+        <!--Alba Hae Writing View Controller-->
         <scene sceneID="bqz-dz-LCr">
             <objects>
-                <viewController id="0dc-JB-Cmj" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AlbaHaeWritingVC" id="0dc-JB-Cmj" customClass="AlbaHaeWritingViewController" customModule="Wepet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OXB-mw-gMq">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -483,10 +483,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bs1-dX-5Dt">
-                                <rect key="frame" x="26" y="242" width="341" height="260"/>
+                                <rect key="frame" x="26" y="242" width="341" height="180"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="260" id="kh3-Lx-hT6"/>
+                                    <constraint firstAttribute="height" constant="180" id="kh3-Lx-hT6"/>
                                 </constraints>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -494,13 +494,13 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="첨부파일" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uyF-I6-Ueb">
-                                <rect key="frame" x="26" y="532" width="49" height="17"/>
+                                <rect key="frame" x="26" y="591" width="49" height="17"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o4B-hi-kUv">
-                                <rect key="frame" x="26" y="551" width="341" height="45"/>
+                                <rect key="frame" x="26" y="610" width="341" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="xTu-k0-HIY"/>
                                 </constraints>
@@ -508,7 +508,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sb1-EG-3GD">
-                                <rect key="frame" x="76" y="528" width="25" height="25"/>
+                                <rect key="frame" x="76" y="586" width="25" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="25" id="1Me-rQ-uFC"/>
                                     <constraint firstAttribute="height" constant="25" id="8b2-Jc-h5h"/>
@@ -517,7 +517,7 @@
                                 <buttonConfiguration key="configuration" style="plain" image="Wepet_putImage"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4az-0j-X7b">
-                                <rect key="frame" x="40" y="656" width="313" height="45"/>
+                                <rect key="frame" x="40" y="715" width="313" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="iyv-8j-UiO"/>
                                 </constraints>
@@ -542,17 +542,39 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="전달사항" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NRR-WZ-eOd">
+                                <rect key="frame" x="25.999999999999996" y="452" width="48.666666666666657" height="17"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="F45-Sh-38N">
+                                <rect key="frame" x="26" y="471" width="341" height="90"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="vTJ-yo-DEx"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cWQ-mn-wZy"/>
                         <color key="backgroundColor" systemColor="systemGray6Color"/>
                         <constraints>
                             <constraint firstItem="22u-Kw-p3u" firstAttribute="leading" secondItem="OXB-mw-gMq" secondAttribute="leading" constant="14" id="13I-P9-Jyi"/>
+                            <constraint firstItem="NRR-WZ-eOd" firstAttribute="top" secondItem="bs1-dX-5Dt" secondAttribute="bottom" constant="30" id="243-Xe-Dlr"/>
                             <constraint firstItem="o4B-hi-kUv" firstAttribute="top" secondItem="uyF-I6-Ueb" secondAttribute="bottom" constant="2" id="2J8-Hl-6U2"/>
                             <constraint firstItem="cWQ-mn-wZy" firstAttribute="trailing" secondItem="bs1-dX-5Dt" secondAttribute="trailing" constant="26" id="7hV-Zq-8EP"/>
                             <constraint firstItem="Wre-14-Ezg" firstAttribute="centerX" secondItem="OXB-mw-gMq" secondAttribute="centerX" id="Cty-z3-D6G"/>
                             <constraint firstItem="Gev-K2-7ZB" firstAttribute="leading" secondItem="cWQ-mn-wZy" secondAttribute="leading" constant="26" id="D1S-nx-Pax"/>
-                            <constraint firstItem="uyF-I6-Ueb" firstAttribute="top" secondItem="bs1-dX-5Dt" secondAttribute="bottom" constant="30" id="Epk-uw-mdV"/>
+                            <constraint firstItem="NRR-WZ-eOd" firstAttribute="leading" secondItem="cWQ-mn-wZy" secondAttribute="leading" constant="26" id="GcU-UN-1yw"/>
+                            <constraint firstItem="Sb1-EG-3GD" firstAttribute="top" secondItem="F45-Sh-38N" secondAttribute="bottom" constant="25" id="H2l-as-dQm"/>
+                            <constraint firstItem="uyF-I6-Ueb" firstAttribute="top" secondItem="F45-Sh-38N" secondAttribute="bottom" constant="30" id="HAi-WD-axl"/>
                             <constraint firstItem="cWQ-mn-wZy" firstAttribute="trailing" secondItem="4az-0j-X7b" secondAttribute="trailing" constant="40" id="IBl-qJ-VQt"/>
+                            <constraint firstItem="cWQ-mn-wZy" firstAttribute="trailing" secondItem="F45-Sh-38N" secondAttribute="trailing" constant="26" id="IOa-G2-DP8"/>
+                            <constraint firstItem="F45-Sh-38N" firstAttribute="top" secondItem="NRR-WZ-eOd" secondAttribute="bottom" constant="2" id="K7D-sW-jxW"/>
                             <constraint firstItem="bs1-dX-5Dt" firstAttribute="leading" secondItem="cWQ-mn-wZy" secondAttribute="leading" constant="26" id="NHB-XO-Zh9"/>
                             <constraint firstItem="cWQ-mn-wZy" firstAttribute="trailing" secondItem="o4B-hi-kUv" secondAttribute="trailing" constant="26" id="NSj-Lx-hI0"/>
                             <constraint firstItem="Wre-14-Ezg" firstAttribute="top" secondItem="OXB-mw-gMq" secondAttribute="top" constant="60" id="NoU-I5-nKX"/>
@@ -561,10 +583,10 @@
                             <constraint firstItem="4az-0j-X7b" firstAttribute="leading" secondItem="cWQ-mn-wZy" secondAttribute="leading" constant="40" id="bey-iJ-VFg"/>
                             <constraint firstItem="22u-Kw-p3u" firstAttribute="top" secondItem="OXB-mw-gMq" secondAttribute="top" constant="54" id="cRQ-DK-oZf"/>
                             <constraint firstItem="uyF-I6-Ueb" firstAttribute="leading" secondItem="cWQ-mn-wZy" secondAttribute="leading" constant="26" id="hBU-lt-ZDV"/>
-                            <constraint firstItem="Sb1-EG-3GD" firstAttribute="top" secondItem="bs1-dX-5Dt" secondAttribute="bottom" constant="26" id="kEm-qB-B8K"/>
                             <constraint firstItem="LRh-F4-hiZ" firstAttribute="top" secondItem="Gev-K2-7ZB" secondAttribute="bottom" constant="30" id="nFH-eW-AyR"/>
                             <constraint firstItem="LRh-F4-hiZ" firstAttribute="leading" secondItem="cWQ-mn-wZy" secondAttribute="leading" constant="26" id="oNP-0c-ahj"/>
                             <constraint firstItem="vw0-q8-Lzi" firstAttribute="top" secondItem="22u-Kw-p3u" secondAttribute="bottom" constant="40" id="qGM-tA-lXH"/>
+                            <constraint firstItem="F45-Sh-38N" firstAttribute="leading" secondItem="cWQ-mn-wZy" secondAttribute="leading" constant="26" id="rXd-WQ-lFv"/>
                             <constraint firstItem="cWQ-mn-wZy" firstAttribute="trailing" secondItem="Gev-K2-7ZB" secondAttribute="trailing" constant="26" id="rd4-FX-5el"/>
                             <constraint firstItem="Sb1-EG-3GD" firstAttribute="leading" secondItem="uyF-I6-Ueb" secondAttribute="trailing" constant="1" id="sLY-CQ-vqw"/>
                             <constraint firstItem="4az-0j-X7b" firstAttribute="top" secondItem="o4B-hi-kUv" secondAttribute="bottom" constant="60" id="tLm-Va-iv5"/>
@@ -577,10 +599,10 @@
             </objects>
             <point key="canvasLocation" x="743" y="631"/>
         </scene>
-        <!--View Controller-->
+        <!--Alba Hae Post View Controller-->
         <scene sceneID="CI7-j0-J7j">
             <objects>
-                <viewController id="M1E-hg-997" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AlbaHaePostVC" id="M1E-hg-997" customClass="AlbaHaePostViewController" customModule="Wepet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7mh-Ui-cGI">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -662,7 +684,7 @@
                                 <rect key="frame" x="0.0" y="291.66666666666669" width="393" height="560.33333333333326"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="7Ko-Zs-9F6">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AlbaHaePost_TableViewCell" id="7Ko-Zs-9F6" customClass="AlbaHaePostTableViewCell" customModule="Wepet" customModuleProvider="target">
                                         <rect key="frame" x="20" y="55.333332061767578" width="353" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7Ko-Zs-9F6" id="brA-ro-Ppq">
@@ -672,14 +694,35 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0z-Zu-52S">
+                                <rect key="frame" x="303" y="768" width="50" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="CZp-vy-iN2"/>
+                                    <constraint firstAttribute="height" constant="40" id="pBv-Qh-Yty"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="등록" cornerStyle="medium">
+                                    <fontDescription key="titleFontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="15"/>
+                                    <color key="baseBackgroundColor" name="MainColor1"/>
+                                </buttonConfiguration>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tMt-1g-2Ug">
+                                <rect key="frame" x="40" y="768" width="253" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="1FS-sj-ZI5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="icz-wA-0OX"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
                         <constraints>
                             <constraint firstItem="icz-wA-0OX" firstAttribute="trailing" secondItem="jBI-2n-HRU" secondAttribute="trailing" constant="26" id="1gv-eO-Gjk"/>
                             <constraint firstItem="ckr-i5-s3j" firstAttribute="top" secondItem="7mh-Ui-cGI" secondAttribute="top" constant="56" id="BLV-pk-dqR"/>
                             <constraint firstItem="bjx-6M-mQR" firstAttribute="trailing" secondItem="icz-wA-0OX" secondAttribute="trailing" id="D63-gW-jiB"/>
                             <constraint firstItem="Re5-jE-0cW" firstAttribute="top" secondItem="9d4-7z-eSV" secondAttribute="bottom" id="FQY-vR-FRf"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="m0z-Zu-52S" secondAttribute="bottom" constant="10" id="FdS-5l-UKJ"/>
                             <constraint firstItem="bjx-6M-mQR" firstAttribute="leading" secondItem="icz-wA-0OX" secondAttribute="leading" id="GnK-aw-OSK"/>
                             <constraint firstItem="bjx-6M-mQR" firstAttribute="top" secondItem="0dl-IK-pUN" secondAttribute="bottom" constant="6" id="GuM-dC-1j3"/>
                             <constraint firstItem="0dl-IK-pUN" firstAttribute="top" secondItem="jBI-2n-HRU" secondAttribute="bottom" constant="8" id="La6-tN-OfL"/>
@@ -690,7 +733,11 @@
                             <constraint firstItem="zwh-H2-35C" firstAttribute="top" secondItem="ZG2-CS-uwO" secondAttribute="bottom" constant="10" id="YBE-5i-Ci6"/>
                             <constraint firstAttribute="trailing" secondItem="ckr-i5-s3j" secondAttribute="trailing" constant="20" id="ZWc-xy-lJP"/>
                             <constraint firstItem="d8l-b0-7xl" firstAttribute="top" secondItem="7mh-Ui-cGI" secondAttribute="top" constant="54" id="bi6-MN-H17"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="tMt-1g-2Ug" secondAttribute="bottom" constant="10" id="btY-iG-0ea"/>
                             <constraint firstItem="0dl-IK-pUN" firstAttribute="leading" secondItem="icz-wA-0OX" secondAttribute="leading" constant="26" id="caC-92-scA"/>
+                            <constraint firstItem="icz-wA-0OX" firstAttribute="trailing" secondItem="m0z-Zu-52S" secondAttribute="trailing" constant="40" id="cob-2t-bzW"/>
+                            <constraint firstItem="tMt-1g-2Ug" firstAttribute="leading" secondItem="icz-wA-0OX" secondAttribute="leading" constant="40" id="dkg-Gh-OVL"/>
+                            <constraint firstItem="m0z-Zu-52S" firstAttribute="leading" secondItem="tMt-1g-2Ug" secondAttribute="trailing" constant="10" id="elg-y3-09g"/>
                             <constraint firstItem="zwh-H2-35C" firstAttribute="leading" secondItem="icz-wA-0OX" secondAttribute="leading" constant="26" id="g5m-Wl-Ao4"/>
                             <constraint firstItem="jBI-2n-HRU" firstAttribute="top" secondItem="zwh-H2-35C" secondAttribute="bottom" constant="18" id="gx6-aU-Dms"/>
                             <constraint firstItem="NGa-7e-2Tj" firstAttribute="leading" secondItem="0dl-IK-pUN" secondAttribute="trailing" constant="2" id="i3u-8q-T7U"/>
@@ -708,10 +755,10 @@
             </objects>
             <point key="canvasLocation" x="1462" y="631"/>
         </scene>
-        <!--View Controller-->
+        <!--Alba Hal View Controller-->
         <scene sceneID="U9r-TM-iTV">
             <objects>
-                <viewController id="M0t-dy-7gA" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AlbaHalVC" id="M0t-dy-7gA" customClass="AlbaHalViewController" customModule="Wepet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4hL-Vf-lTf">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -750,7 +797,7 @@
                                 <rect key="frame" x="0.0" y="120" width="393" height="732"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="scS-fm-P0J">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AlbaHal_TableViewCell" id="scS-fm-P0J" customClass="AlbaHalTableViewCell" customModule="Wepet" customModuleProvider="target">
                                         <rect key="frame" x="20" y="55.333332061767578" width="353" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="scS-fm-P0J" id="Vy7-tf-vs5">
@@ -791,10 +838,10 @@
             </objects>
             <point key="canvasLocation" x="21" y="1294"/>
         </scene>
-        <!--View Controller-->
+        <!--Alba Hal Writing View Controller-->
         <scene sceneID="DC8-OL-6Cc">
             <objects>
-                <viewController id="Ju6-U8-PeZ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AlbaHalWritingVC" id="Ju6-U8-PeZ" customClass="AlbaHalWritingViewController" customModule="Wepet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XzJ-d2-SXM">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -914,10 +961,10 @@
             </objects>
             <point key="canvasLocation" x="743" y="1294"/>
         </scene>
-        <!--View Controller-->
+        <!--Alba Hal Post View Controller-->
         <scene sceneID="we0-2t-DsW">
             <objects>
-                <viewController id="qMu-Bw-sdd" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AlbaHalPostVC" id="qMu-Bw-sdd" customClass="AlbaHalPostViewController" customModule="Wepet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QfI-kz-gCI">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -999,7 +1046,7 @@
                                 <rect key="frame" x="0.0" y="291.66666666666669" width="393" height="560.33333333333326"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Hf1-h7-ids">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="AlbaHalPost_TableViewCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Hf1-h7-ids" customClass="AlbaHalPostTableViewCell" customModule="Wepet" customModuleProvider="target">
                                         <rect key="frame" x="20" y="55.333332061767578" width="353" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Hf1-h7-ids" id="IQa-v8-xtK">
@@ -1009,11 +1056,32 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TpC-zp-ETX">
+                                <rect key="frame" x="303" y="768" width="50" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Mlb-88-1QZ"/>
+                                    <constraint firstAttribute="height" constant="40" id="Xld-Dn-CQ0"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="등록" cornerStyle="medium">
+                                    <fontDescription key="titleFontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="15"/>
+                                    <color key="baseBackgroundColor" name="MainColor1"/>
+                                </buttonConfiguration>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J3t-mH-eTl">
+                                <rect key="frame" x="40" y="768" width="253" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="7xm-TI-NSL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ktB-wI-dhv"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
                         <constraints>
                             <constraint firstItem="ktB-wI-dhv" firstAttribute="trailing" secondItem="Nbt-wr-1Pu" secondAttribute="trailing" constant="26" id="4et-Sg-1lQ"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="J3t-mH-eTl" secondAttribute="bottom" constant="10" id="6V4-LU-K1R"/>
                             <constraint firstItem="b6n-ML-QAd" firstAttribute="top" secondItem="roh-aN-yoS" secondAttribute="bottom" constant="14" id="93g-vN-CYq"/>
                             <constraint firstItem="hDw-qq-Ugg" firstAttribute="leading" secondItem="QfI-kz-gCI" secondAttribute="leading" constant="14" id="9zd-iu-rq8"/>
                             <constraint firstItem="roh-aN-yoS" firstAttribute="top" secondItem="hDw-qq-Ugg" secondAttribute="bottom" constant="16" id="BFq-iN-sex"/>
@@ -1028,22 +1096,26 @@
                             <constraint firstItem="hDw-qq-Ugg" firstAttribute="top" secondItem="QfI-kz-gCI" secondAttribute="top" constant="54" id="YAk-n6-l3x"/>
                             <constraint firstItem="bim-fr-PCz" firstAttribute="top" secondItem="b6n-ML-QAd" secondAttribute="bottom" constant="10" id="YLA-uK-AJt"/>
                             <constraint firstItem="kWW-nC-S1d" firstAttribute="top" secondItem="Nbt-wr-1Pu" secondAttribute="bottom" constant="8" id="a4d-ps-m12"/>
+                            <constraint firstItem="TpC-zp-ETX" firstAttribute="leading" secondItem="J3t-mH-eTl" secondAttribute="trailing" constant="10" id="aAl-Js-USm"/>
                             <constraint firstAttribute="bottom" secondItem="TCQ-dx-RA9" secondAttribute="bottom" id="gLl-rL-ONg"/>
                             <constraint firstItem="TCQ-dx-RA9" firstAttribute="trailing" secondItem="ktB-wI-dhv" secondAttribute="trailing" id="gZT-CA-y5h"/>
                             <constraint firstItem="xU7-JP-FLa" firstAttribute="top" secondItem="VfM-61-cXC" secondAttribute="bottom" id="iF6-e2-NsB"/>
+                            <constraint firstItem="ktB-wI-dhv" firstAttribute="trailing" secondItem="TpC-zp-ETX" secondAttribute="trailing" constant="40" id="jzN-LQ-s6w"/>
                             <constraint firstItem="Nbt-wr-1Pu" firstAttribute="top" secondItem="bim-fr-PCz" secondAttribute="bottom" constant="18" id="lJG-mK-YB6"/>
                             <constraint firstItem="b6n-ML-QAd" firstAttribute="leading" secondItem="ktB-wI-dhv" secondAttribute="leading" constant="26" id="mqO-oG-kdN"/>
                             <constraint firstAttribute="trailing" secondItem="tHs-Cq-K35" secondAttribute="trailing" constant="20" id="oV6-Q6-a3M"/>
                             <constraint firstItem="xU7-JP-FLa" firstAttribute="leading" secondItem="roh-aN-yoS" secondAttribute="trailing" constant="8" id="pfE-RM-CbF"/>
+                            <constraint firstItem="J3t-mH-eTl" firstAttribute="leading" secondItem="ktB-wI-dhv" secondAttribute="leading" constant="40" id="r4Q-7x-fCh"/>
                             <constraint firstItem="VfM-61-cXC" firstAttribute="top" secondItem="QfI-kz-gCI" secondAttribute="top" constant="110" id="s3S-s8-IU2"/>
                             <constraint firstItem="aF1-8b-fRe" firstAttribute="top" secondItem="Nbt-wr-1Pu" secondAttribute="bottom" constant="12" id="tBa-vC-xLa"/>
                             <constraint firstItem="bim-fr-PCz" firstAttribute="leading" secondItem="ktB-wI-dhv" secondAttribute="leading" constant="26" id="wW6-eT-twe"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="TpC-zp-ETX" secondAttribute="bottom" constant="10" id="xQp-u3-QMI"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YSm-Ad-poB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1462" y="1294"/>
+            <point key="canvasLocation" x="1461.8320610687022" y="1293.661971830986"/>
         </scene>
     </scenes>
     <resources>

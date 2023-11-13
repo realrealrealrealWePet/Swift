@@ -12,6 +12,20 @@
 		C725F5222AC836610096C6D3 /* UserJoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C725F5212AC836610096C6D3 /* UserJoinViewController.swift */; };
 		C725F5242AC836680096C6D3 /* PetJoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C725F5232AC836680096C6D3 /* PetJoinViewController.swift */; };
 		C725F5262AC837360096C6D3 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C725F5252AC837360096C6D3 /* MainTabViewController.swift */; };
+		C72FDF6E2B02325F00D7B838 /* CommunityWritingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDF6D2B02325F00D7B838 /* CommunityWritingViewController.swift */; };
+		C72FDF702B02329100D7B838 /* CommunityPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDF6F2B02329100D7B838 /* CommunityPostViewController.swift */; };
+		C72FDF722B0232DE00D7B838 /* AlbaHalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDF712B0232DE00D7B838 /* AlbaHalViewController.swift */; };
+		C72FDF742B0232E900D7B838 /* AlbaHalWritingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDF732B0232E900D7B838 /* AlbaHalWritingViewController.swift */; };
+		C72FDF762B0232FB00D7B838 /* AlbaHalPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDF752B0232FB00D7B838 /* AlbaHalPostViewController.swift */; };
+		C72FDF782B02330A00D7B838 /* AlbaHaeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDF772B02330A00D7B838 /* AlbaHaeViewController.swift */; };
+		C72FDF7A2B02332100D7B838 /* AlbaHaeWritingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDF792B02332100D7B838 /* AlbaHaeWritingViewController.swift */; };
+		C72FDF7C2B02332E00D7B838 /* AlbaHaePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDF7B2B02332E00D7B838 /* AlbaHaePostViewController.swift */; };
+		C72FDF7E2B02422600D7B838 /* CommunityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDF7D2B02422600D7B838 /* CommunityTableViewCell.swift */; };
+		C72FDF802B02423F00D7B838 /* AlbaHalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDF7F2B02423F00D7B838 /* AlbaHalTableViewCell.swift */; };
+		C72FDF822B02424A00D7B838 /* AlbaHaeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDF812B02424A00D7B838 /* AlbaHaeTableViewCell.swift */; };
+		C72FDF842B02425900D7B838 /* CommunityPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDF832B02425900D7B838 /* CommunityPostTableViewCell.swift */; };
+		C72FDF862B02426400D7B838 /* AlbaHaePostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDF852B02426400D7B838 /* AlbaHaePostTableViewCell.swift */; };
+		C72FDF882B02427100D7B838 /* AlbaHalPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDF872B02427100D7B838 /* AlbaHalPostTableViewCell.swift */; };
 		C75DC4902AB4588A00DD283C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75DC48F2AB4588A00DD283C /* AppDelegate.swift */; };
 		C75DC4922AB4588A00DD283C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75DC4912AB4588A00DD283C /* SceneDelegate.swift */; };
 		C75DC4942AB4588A00DD283C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75DC4932AB4588A00DD283C /* ViewController.swift */; };
@@ -38,6 +52,20 @@
 		C725F5212AC836610096C6D3 /* UserJoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserJoinViewController.swift; sourceTree = "<group>"; };
 		C725F5232AC836680096C6D3 /* PetJoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetJoinViewController.swift; sourceTree = "<group>"; };
 		C725F5252AC837360096C6D3 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		C72FDF6D2B02325F00D7B838 /* CommunityWritingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityWritingViewController.swift; sourceTree = "<group>"; };
+		C72FDF6F2B02329100D7B838 /* CommunityPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityPostViewController.swift; sourceTree = "<group>"; };
+		C72FDF712B0232DE00D7B838 /* AlbaHalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbaHalViewController.swift; sourceTree = "<group>"; };
+		C72FDF732B0232E900D7B838 /* AlbaHalWritingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbaHalWritingViewController.swift; sourceTree = "<group>"; };
+		C72FDF752B0232FB00D7B838 /* AlbaHalPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbaHalPostViewController.swift; sourceTree = "<group>"; };
+		C72FDF772B02330A00D7B838 /* AlbaHaeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbaHaeViewController.swift; sourceTree = "<group>"; };
+		C72FDF792B02332100D7B838 /* AlbaHaeWritingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbaHaeWritingViewController.swift; sourceTree = "<group>"; };
+		C72FDF7B2B02332E00D7B838 /* AlbaHaePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbaHaePostViewController.swift; sourceTree = "<group>"; };
+		C72FDF7D2B02422600D7B838 /* CommunityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityTableViewCell.swift; sourceTree = "<group>"; };
+		C72FDF7F2B02423F00D7B838 /* AlbaHalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbaHalTableViewCell.swift; sourceTree = "<group>"; };
+		C72FDF812B02424A00D7B838 /* AlbaHaeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbaHaeTableViewCell.swift; sourceTree = "<group>"; };
+		C72FDF832B02425900D7B838 /* CommunityPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityPostTableViewCell.swift; sourceTree = "<group>"; };
+		C72FDF852B02426400D7B838 /* AlbaHaePostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbaHaePostTableViewCell.swift; sourceTree = "<group>"; };
+		C72FDF872B02427100D7B838 /* AlbaHalPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbaHalPostTableViewCell.swift; sourceTree = "<group>"; };
 		C75DC48C2AB4588A00DD283C /* Wepet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wepet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75DC48F2AB4588A00DD283C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C75DC4912AB4588A00DD283C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -163,6 +191,20 @@
 			children = (
 				C7B3C9B82AC9721F00A5A497 /* Community.storyboard */,
 				C7B3C9C02AC9724F00A5A497 /* CommunityViewController.swift */,
+				C72FDF6D2B02325F00D7B838 /* CommunityWritingViewController.swift */,
+				C72FDF6F2B02329100D7B838 /* CommunityPostViewController.swift */,
+				C72FDF772B02330A00D7B838 /* AlbaHaeViewController.swift */,
+				C72FDF792B02332100D7B838 /* AlbaHaeWritingViewController.swift */,
+				C72FDF7B2B02332E00D7B838 /* AlbaHaePostViewController.swift */,
+				C72FDF712B0232DE00D7B838 /* AlbaHalViewController.swift */,
+				C72FDF732B0232E900D7B838 /* AlbaHalWritingViewController.swift */,
+				C72FDF752B0232FB00D7B838 /* AlbaHalPostViewController.swift */,
+				C72FDF7D2B02422600D7B838 /* CommunityTableViewCell.swift */,
+				C72FDF832B02425900D7B838 /* CommunityPostTableViewCell.swift */,
+				C72FDF812B02424A00D7B838 /* AlbaHaeTableViewCell.swift */,
+				C72FDF852B02426400D7B838 /* AlbaHaePostTableViewCell.swift */,
+				C72FDF7F2B02423F00D7B838 /* AlbaHalTableViewCell.swift */,
+				C72FDF872B02427100D7B838 /* AlbaHalPostTableViewCell.swift */,
 			);
 			path = Community;
 			sourceTree = "<group>";
@@ -296,18 +338,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C72FDF862B02426400D7B838 /* AlbaHaePostTableViewCell.swift in Sources */,
 				C725F5242AC836680096C6D3 /* PetJoinViewController.swift in Sources */,
+				C72FDF7E2B02422600D7B838 /* CommunityTableViewCell.swift in Sources */,
+				C72FDF702B02329100D7B838 /* CommunityPostViewController.swift in Sources */,
+				C72FDF882B02427100D7B838 /* AlbaHalPostTableViewCell.swift in Sources */,
 				C7B3C9BF2AC9724400A5A497 /* WalkViewController.swift in Sources */,
+				C72FDF7C2B02332E00D7B838 /* AlbaHaePostViewController.swift in Sources */,
 				C7B3C9C12AC9724F00A5A497 /* CommunityViewController.swift in Sources */,
+				C72FDF742B0232E900D7B838 /* AlbaHalWritingViewController.swift in Sources */,
+				C72FDF6E2B02325F00D7B838 /* CommunityWritingViewController.swift in Sources */,
 				C7B585F92ACC222D007934F2 /* EditUserViewController.swift in Sources */,
 				C725F5202AC836550096C6D3 /* LoginViewController.swift in Sources */,
 				C725F5222AC836610096C6D3 /* UserJoinViewController.swift in Sources */,
 				C75DC4942AB4588A00DD283C /* ViewController.swift in Sources */,
 				C7B3C9C32AC9725900A5A497 /* ChattingViewController.swift in Sources */,
+				C72FDF802B02423F00D7B838 /* AlbaHalTableViewCell.swift in Sources */,
+				C72FDF842B02425900D7B838 /* CommunityPostTableViewCell.swift in Sources */,
+				C72FDF722B0232DE00D7B838 /* AlbaHalViewController.swift in Sources */,
 				C75DC4902AB4588A00DD283C /* AppDelegate.swift in Sources */,
+				C72FDF782B02330A00D7B838 /* AlbaHaeViewController.swift in Sources */,
 				C7B3C9C52AC9726300A5A497 /* MyHomeViewController.swift in Sources */,
+				C72FDF762B0232FB00D7B838 /* AlbaHalPostViewController.swift in Sources */,
 				C7B585FB2ACC223D007934F2 /* EditPetViewController.swift in Sources */,
 				C725F5262AC837360096C6D3 /* MainTabViewController.swift in Sources */,
+				C72FDF7A2B02332100D7B838 /* AlbaHaeWritingViewController.swift in Sources */,
+				C72FDF822B02424A00D7B838 /* AlbaHaeTableViewCell.swift in Sources */,
 				C75DC4922AB4588A00DD283C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
