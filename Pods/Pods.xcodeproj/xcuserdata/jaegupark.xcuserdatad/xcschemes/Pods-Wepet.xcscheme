@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1300"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C22DC83370139976CD88B673DED45E5A"
+               BlueprintIdentifier = "8359CF699B0F6AB037A32E6A77B5DE2A"
                BuildableName = "Pods_Wepet.framework"
                BlueprintName = "Pods-Wepet"
                ReferencedContainer = "container:Pods.xcodeproj">

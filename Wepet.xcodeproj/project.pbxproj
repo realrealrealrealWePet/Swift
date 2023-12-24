@@ -3,21 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07540D2051E0FA8EC20E0E86 /* Pods_Wepet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499272898FE89C51050D3D68 /* Pods_Wepet.framework */; };
+		A3CEFBB8D0C2DF069CEA2183 /* Pods_Wepet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048A49D0556797021213A0C4 /* Pods_Wepet.framework */; };
+		C7075C3C2B2866F200426986 /* SeeProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7075C3B2B2866F200426986 /* SeeProfileViewController.swift */; };
 		C725F5202AC836550096C6D3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C725F51F2AC836550096C6D3 /* LoginViewController.swift */; };
 		C725F5222AC836610096C6D3 /* UserJoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C725F5212AC836610096C6D3 /* UserJoinViewController.swift */; };
 		C725F5242AC836680096C6D3 /* PetJoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C725F5232AC836680096C6D3 /* PetJoinViewController.swift */; };
 		C725F5262AC837360096C6D3 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C725F5252AC837360096C6D3 /* MainTabViewController.swift */; };
 		C72FDF6E2B02325F00D7B838 /* CommunityWritingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDF6D2B02325F00D7B838 /* CommunityWritingViewController.swift */; };
 		C72FDF702B02329100D7B838 /* CommunityPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDF6F2B02329100D7B838 /* CommunityPostViewController.swift */; };
-		C72FDF722B0232DE00D7B838 /* AlbaHalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDF712B0232DE00D7B838 /* AlbaHalViewController.swift */; };
 		C72FDF742B0232E900D7B838 /* AlbaHalWritingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDF732B0232E900D7B838 /* AlbaHalWritingViewController.swift */; };
 		C72FDF762B0232FB00D7B838 /* AlbaHalPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDF752B0232FB00D7B838 /* AlbaHalPostViewController.swift */; };
-		C72FDF782B02330A00D7B838 /* AlbaHaeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDF772B02330A00D7B838 /* AlbaHaeViewController.swift */; };
 		C72FDF7A2B02332100D7B838 /* AlbaHaeWritingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDF792B02332100D7B838 /* AlbaHaeWritingViewController.swift */; };
 		C72FDF7C2B02332E00D7B838 /* AlbaHaePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDF7B2B02332E00D7B838 /* AlbaHaePostViewController.swift */; };
 		C72FDF7E2B02422600D7B838 /* CommunityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDF7D2B02422600D7B838 /* CommunityTableViewCell.swift */; };
@@ -52,21 +51,22 @@
 		C7B3C9C52AC9726300A5A497 /* MyHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B3C9C42AC9726300A5A497 /* MyHomeViewController.swift */; };
 		C7B585F92ACC222D007934F2 /* EditUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B585F82ACC222D007934F2 /* EditUserViewController.swift */; };
 		C7B585FB2ACC223D007934F2 /* EditPetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B585FA2ACC223D007934F2 /* EditPetViewController.swift */; };
+		C7E709F02B29B24600DD8249 /* MyHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E709EF2B29B24600DD8249 /* MyHomeCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2F6B776A2BACFCA24CCE2AD5 /* Pods-Wepet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wepet.release.xcconfig"; path = "Target Support Files/Pods-Wepet/Pods-Wepet.release.xcconfig"; sourceTree = "<group>"; };
-		499272898FE89C51050D3D68 /* Pods_Wepet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wepet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		048A49D0556797021213A0C4 /* Pods_Wepet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wepet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB86E89944BCA49743963EA /* Pods-Wepet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wepet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wepet/Pods-Wepet.debug.xcconfig"; sourceTree = "<group>"; };
+		5EAF499F514ED58BDF03E293 /* Pods-Wepet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wepet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wepet/Pods-Wepet.release.xcconfig"; sourceTree = "<group>"; };
+		C7075C3B2B2866F200426986 /* SeeProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeProfileViewController.swift; sourceTree = "<group>"; };
 		C725F51F2AC836550096C6D3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C725F5212AC836610096C6D3 /* UserJoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserJoinViewController.swift; sourceTree = "<group>"; };
 		C725F5232AC836680096C6D3 /* PetJoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetJoinViewController.swift; sourceTree = "<group>"; };
 		C725F5252AC837360096C6D3 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
 		C72FDF6D2B02325F00D7B838 /* CommunityWritingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityWritingViewController.swift; sourceTree = "<group>"; };
 		C72FDF6F2B02329100D7B838 /* CommunityPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityPostViewController.swift; sourceTree = "<group>"; };
-		C72FDF712B0232DE00D7B838 /* AlbaHalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbaHalViewController.swift; sourceTree = "<group>"; };
 		C72FDF732B0232E900D7B838 /* AlbaHalWritingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbaHalWritingViewController.swift; sourceTree = "<group>"; };
 		C72FDF752B0232FB00D7B838 /* AlbaHalPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbaHalPostViewController.swift; sourceTree = "<group>"; };
-		C72FDF772B02330A00D7B838 /* AlbaHaeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbaHaeViewController.swift; sourceTree = "<group>"; };
 		C72FDF792B02332100D7B838 /* AlbaHaeWritingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbaHaeWritingViewController.swift; sourceTree = "<group>"; };
 		C72FDF7B2B02332E00D7B838 /* AlbaHaePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbaHaePostViewController.swift; sourceTree = "<group>"; };
 		C72FDF7D2B02422600D7B838 /* CommunityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityTableViewCell.swift; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 		C7B3C9C42AC9726300A5A497 /* MyHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHomeViewController.swift; sourceTree = "<group>"; };
 		C7B585F82ACC222D007934F2 /* EditUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserViewController.swift; sourceTree = "<group>"; };
 		C7B585FA2ACC223D007934F2 /* EditPetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPetViewController.swift; sourceTree = "<group>"; };
-		D24CEC8FA47DBB601F363510 /* Pods-Wepet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wepet.debug.xcconfig"; path = "Target Support Files/Pods-Wepet/Pods-Wepet.debug.xcconfig"; sourceTree = "<group>"; };
+		C7E709EF2B29B24600DD8249 /* MyHomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHomeCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,9 +118,9 @@
 				C76C55BA2B0C703700F489AD /* DaumMap.framework in Frameworks */,
 				C76C55C02B0C70A400F489AD /* CoreLocation.framework in Frameworks */,
 				C76C55C22B0C70AB00F489AD /* QuartzCore.framework in Frameworks */,
-				07540D2051E0FA8EC20E0E86 /* Pods_Wepet.framework in Frameworks */,
 				C76C55BE2B0C709D00F489AD /* SystemConfiguration.framework in Frameworks */,
 				C76C55BC2B0C709500F489AD /* OpenGLES.framework in Frameworks */,
+				A3CEFBB8D0C2DF069CEA2183 /* Pods_Wepet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +138,7 @@
 				C76C55BD2B0C709D00F489AD /* SystemConfiguration.framework */,
 				C76C55BB2B0C709500F489AD /* OpenGLES.framework */,
 				C76C55B92B0C703700F489AD /* DaumMap.framework */,
-				499272898FE89C51050D3D68 /* Pods_Wepet.framework */,
+				048A49D0556797021213A0C4 /* Pods_Wepet.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -146,8 +146,8 @@
 		BA0D1D1B8DFA2CB95000C3B0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D24CEC8FA47DBB601F363510 /* Pods-Wepet.debug.xcconfig */,
-				2F6B776A2BACFCA24CCE2AD5 /* Pods-Wepet.release.xcconfig */,
+				3AB86E89944BCA49743963EA /* Pods-Wepet.debug.xcconfig */,
+				5EAF499F514ED58BDF03E293 /* Pods-Wepet.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -209,6 +209,7 @@
 				C7B3C9C42AC9726300A5A497 /* MyHomeViewController.swift */,
 				C7B585F82ACC222D007934F2 /* EditUserViewController.swift */,
 				C7B585FA2ACC223D007934F2 /* EditPetViewController.swift */,
+				C7E709EF2B29B24600DD8249 /* MyHomeCollectionViewCell.swift */,
 			);
 			path = MyHome;
 			sourceTree = "<group>";
@@ -229,10 +230,8 @@
 				C7B3C9C02AC9724F00A5A497 /* CommunityViewController.swift */,
 				C72FDF6D2B02325F00D7B838 /* CommunityWritingViewController.swift */,
 				C72FDF6F2B02329100D7B838 /* CommunityPostViewController.swift */,
-				C72FDF772B02330A00D7B838 /* AlbaHaeViewController.swift */,
 				C72FDF792B02332100D7B838 /* AlbaHaeWritingViewController.swift */,
 				C72FDF7B2B02332E00D7B838 /* AlbaHaePostViewController.swift */,
-				C72FDF712B0232DE00D7B838 /* AlbaHalViewController.swift */,
 				C72FDF732B0232E900D7B838 /* AlbaHalWritingViewController.swift */,
 				C72FDF752B0232FB00D7B838 /* AlbaHalPostViewController.swift */,
 				C72FDF7D2B02422600D7B838 /* CommunityTableViewCell.swift */,
@@ -251,6 +250,7 @@
 				C7B3C9B62AC9721600A5A497 /* Walk.storyboard */,
 				C7B3C9BE2AC9724400A5A497 /* WalkViewController.swift */,
 				C76C55CA2B0C83E200F489AD /* MapViewController.swift */,
+				C7075C3B2B2866F200426986 /* SeeProfileViewController.swift */,
 			);
 			path = Walk;
 			sourceTree = "<group>";
@@ -262,11 +262,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C75DC4A02AB4588C00DD283C /* Build configuration list for PBXNativeTarget "Wepet" */;
 			buildPhases = (
-				80C1D79AB8F3B3D149F279A8 /* [CP] Check Pods Manifest.lock */,
+				CBE19CF5236EC69C2A80E22D /* [CP] Check Pods Manifest.lock */,
 				C75DC4882AB4588A00DD283C /* Sources */,
 				C75DC4892AB4588A00DD283C /* Frameworks */,
 				C75DC48A2AB4588A00DD283C /* Resources */,
-				8D2333A5E08071C0871423D3 /* [CP] Embed Pods Frameworks */,
+				32484BB650E6C7CAB43AE44E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -284,16 +284,17 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					C75DC48B2AB4588A00DD283C = {
-						CreatedOnToolsVersion = 14.3.1;
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
 			buildConfigurationList = C75DC4872AB4588A00DD283C /* Build configuration list for PBXProject "Wepet" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -329,43 +330,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		80C1D79AB8F3B3D149F279A8 /* [CP] Check Pods Manifest.lock */ = {
+		32484BB650E6C7CAB43AE44E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Wepet/Pods-Wepet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/Pageboy/Pageboy.framework",
+				"${BUILT_PRODUCTS_DIR}/Tabman/Tabman.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pageboy.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Tabman.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wepet/Pods-Wepet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBE19CF5236EC69C2A80E22D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Wepet-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8D2333A5E08071C0871423D3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Wepet/Pods-Wepet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Wepet/Pods-Wepet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wepet/Pods-Wepet-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -390,15 +394,15 @@
 				C725F5222AC836610096C6D3 /* UserJoinViewController.swift in Sources */,
 				C75DC4942AB4588A00DD283C /* ViewController.swift in Sources */,
 				C7B3C9C32AC9725900A5A497 /* ChattingViewController.swift in Sources */,
+				C7075C3C2B2866F200426986 /* SeeProfileViewController.swift in Sources */,
 				C72FDF802B02423F00D7B838 /* AlbaHalTableViewCell.swift in Sources */,
 				C72FDF842B02425900D7B838 /* CommunityPostTableViewCell.swift in Sources */,
-				C72FDF722B0232DE00D7B838 /* AlbaHalViewController.swift in Sources */,
 				C75DC4902AB4588A00DD283C /* AppDelegate.swift in Sources */,
-				C72FDF782B02330A00D7B838 /* AlbaHaeViewController.swift in Sources */,
 				C7B3C9C52AC9726300A5A497 /* MyHomeViewController.swift in Sources */,
 				C72FDF762B0232FB00D7B838 /* AlbaHalPostViewController.swift in Sources */,
 				C7B585FB2ACC223D007934F2 /* EditPetViewController.swift in Sources */,
 				C725F5262AC837360096C6D3 /* MainTabViewController.swift in Sources */,
+				C7E709F02B29B24600DD8249 /* MyHomeCollectionViewCell.swift in Sources */,
 				C72FDF7A2B02332100D7B838 /* AlbaHaeWritingViewController.swift in Sources */,
 				C72FDF822B02424A00D7B838 /* AlbaHaeTableViewCell.swift in Sources */,
 				C75DC4922AB4588A00DD283C /* SceneDelegate.swift in Sources */,
@@ -544,7 +548,7 @@
 		};
 		C75DC4A12AB4588C00DD283C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D24CEC8FA47DBB601F363510 /* Pods-Wepet.debug.xcconfig */;
+			baseConfigurationReference = 3AB86E89944BCA49743963EA /* Pods-Wepet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -579,7 +583,7 @@
 		};
 		C75DC4A22AB4588C00DD283C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F6B776A2BACFCA24CCE2AD5 /* Pods-Wepet.release.xcconfig */;
+			baseConfigurationReference = 5EAF499F514ED58BDF03E293 /* Pods-Wepet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

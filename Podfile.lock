@@ -1,16 +1,28 @@
 PODS:
+  - Alamofire (5.8.1)
   - DropDown (2.3.13)
+  - Pageboy (4.0.2)
+  - Tabman (3.0.2):
+    - Pageboy (~> 4.0.2)
 
 DEPENDENCIES:
+  - Alamofire
   - DropDown
+  - Tabman (~> 3.0)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
     - DropDown
+    - Pageboy
+    - Tabman
 
 SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
   DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  Pageboy: 34ff11e8d1041b81769d5bcde9b19a0cb7218bd9
+  Tabman: 6326ec3a792da1c2a6e79c7eddb56af7b591c9d6
 
-PODFILE CHECKSUM: 3dd0aafdc71f6f369a2902c5c64654553064327e
+PODFILE CHECKSUM: d39dab8a162e0356ae37c46b923c74b3d139aaad
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.5.2
