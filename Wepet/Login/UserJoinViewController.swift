@@ -8,7 +8,15 @@
 import UIKit
 
 class UserJoinViewController: UIViewController {
-
+    
+    @IBOutlet var NicknameTextField: UITextField!
+    @IBOutlet var EmailTextField: UITextField!
+    @IBOutlet var CodeTextField: UITextField!
+    @IBOutlet var PWTextField: UITextField!
+    @IBOutlet var BDTextField: UITextField!
+    @IBOutlet var EmailView: UIStackView!
+    @IBOutlet var CodeView: UIStackView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

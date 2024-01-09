@@ -8,7 +8,11 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
+    
+    @IBOutlet var IDTextField: UITextField!
+    
+    @IBOutlet var PWTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
