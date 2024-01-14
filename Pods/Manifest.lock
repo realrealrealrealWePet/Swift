@@ -11,7 +11,7 @@ DEPENDENCIES:
   - Tabman (~> 3.0)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - DropDown
     - Pageboy
@@ -25,4 +25,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: d39dab8a162e0356ae37c46b923c74b3d139aaad
 
-COCOAPODS: 1.5.2
+COCOAPODS: 1.14.3

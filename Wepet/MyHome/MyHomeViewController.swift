@@ -32,4 +32,15 @@ class MyHomeViewController: UIViewController {
         navigationController?.setNavigationBarHidden(false, animated: animated)
     }
 
+    @IBAction func Edit_Profile(_ sender: Any) {
+        guard let nextVC = self.storyboard?.instantiateViewController(withIdentifier: "EditUserVC") as? EditUserViewController else { return }
+
+        self.navigationController?.pushViewController(nextVC, animated: true)
+    }
+    
+    @IBAction func Edit_Pet(_ sender: Any) {
+        guard let nextVC = self.storyboard?.instantiateViewController(withIdentifier: "EditPetVC") as? EditPetViewController else { return }
+
+        self.navigationController?.pushViewController(nextVC, animated: true)
+    }
 }

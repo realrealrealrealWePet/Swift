@@ -16,15 +16,9 @@ class CommunityViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        CommuTableView.rowHeight = UITableView.automaticDimension
-//        CommuTableView.estimatedRowHeight = UITableView.automaticDimension
-//
-//        CommuTableView.delegate = self
-//        CommuTableView.dataSource = self
-//        CommuTableView.layer.masksToBounds = true// any value you want
-//        CommuTableView.layer.shadowOpacity = 0.12// any value you want
-//        CommuTableView.layer.shadowRadius = 10 // any value you want
-//        CommuTableView.layer.shadowOffset = .init(width: 5, height: 10)
+        CommunityView.alpha = 1
+        AlbaHaeView.alpha = 0
+        AlbaHalView.alpha = 0
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -39,4 +33,27 @@ class CommunityViewController: UIViewController {
         navigationController?.setNavigationBarHidden(false, animated: animated)
     }
 
+    @IBAction func Community_Tapped(_ sender: Any) {
+        CommunityView.alpha = 1
+        AlbaHaeView.alpha = 0
+        AlbaHalView.alpha = 0
+    }
+    
+    @IBAction func AlbaHal_Tapped(_ sender: Any) {
+        CommunityView.alpha = 0
+        AlbaHalView.alpha = 1
+        AlbaHaeView.alpha = 0
+    }
+    
+    @IBAction func AlbaHae_Tapped(_ sender: Any) {
+        CommunityView.alpha = 0
+        AlbaHalView.alpha = 0
+        AlbaHaeView.alpha = 1
+    }
+    
+    @IBAction func Writing_Tapped(_ sender: Any) {
+        guard let nextVC = self.storyboard?.instantiateViewController(withIdentifier: "CommunityWritingVC") as? CommunityWritingViewController else { return }
+
+        self.navigationController?.pushViewController(nextVC, animated: true)
+    }
 }

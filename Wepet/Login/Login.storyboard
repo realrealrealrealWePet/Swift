@@ -176,7 +176,7 @@
         <!--User Join View Controller-->
         <scene sceneID="erp-cB-ral">
             <objects>
-                <viewController storyboardIdentifier="UserJoinVC" id="Kza-Vd-MSr" customClass="UserJoinViewController" customModule="Wepet" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UserJoinVC" modalPresentationStyle="fullScreen" id="Kza-Vd-MSr" customClass="UserJoinViewController" customModule="Wepet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5SK-73-Fb3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -209,7 +209,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wepet_Default" translatesAutoresizingMaskIntoConstraints="NO" id="jik-uu-geo">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wepet_Default" translatesAutoresizingMaskIntoConstraints="NO" id="jik-uu-geo">
                                                 <rect key="frame" x="156.66666666666666" y="123" width="80" height="80"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="80" id="Eaq-9E-foa"/>
@@ -224,6 +224,9 @@
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="Wepet_Camera"/>
+                                                <connections>
+                                                    <action selector="Camera_Tapped:" destination="Kza-Vd-MSr" eventType="touchUpInside" id="a77-XR-IJ3"/>
+                                                </connections>
                                             </button>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Ys-gX-H6Y">
                                                 <rect key="frame" x="40" y="235" width="234" height="45"/>
@@ -314,6 +317,9 @@
                                                                                     <fontDescription key="titleFontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="11"/>
                                                                                     <color key="baseBackgroundColor" red="0.65985238550000003" green="0.86433357" blue="0.6418461204" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                 </buttonConfiguration>
+                                                                                <connections>
+                                                                                    <action selector="SendButton:" destination="Kza-Vd-MSr" eventType="touchUpInside" id="A82-jw-U8Q"/>
+                                                                                </connections>
                                                                             </button>
                                                                         </subviews>
                                                                         <constraints>
@@ -507,6 +513,7 @@
                         <outlet property="EmailView" destination="izi-Gf-PBs" id="CQU-b4-8F7"/>
                         <outlet property="NicknameTextField" destination="5Ys-gX-H6Y" id="8jt-yS-rN4"/>
                         <outlet property="PWTextField" destination="cy3-FP-XD1" id="pE1-ls-6Iw"/>
+                        <outlet property="ProfileImage" destination="jik-uu-geo" id="Coz-7m-HAS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s2H-e5-hlI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -516,7 +523,7 @@
         <!--Pet Join View Controller-->
         <scene sceneID="Ki9-b0-dIm">
             <objects>
-                <viewController storyboardIdentifier="PetJoinVC" id="QWf-xi-eXw" customClass="PetJoinViewController" customModule="Wepet" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PetJoinVC" modalPresentationStyle="fullScreen" id="QWf-xi-eXw" customClass="PetJoinViewController" customModule="Wepet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rlw-dC-fN6">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -529,6 +536,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="Wepet_Back"/>
+                                <connections>
+                                    <action selector="backButton:" destination="QWf-xi-eXw" eventType="touchUpInside" id="3av-4f-4yR"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="펫 정보 입력" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ju-Pf-opB">
                                 <rect key="frame" x="147.66666666666666" y="60" width="98" height="24"/>
@@ -536,7 +546,7 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wepet_Default" translatesAutoresizingMaskIntoConstraints="NO" id="kus-BI-tJd">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wepet_Default" translatesAutoresizingMaskIntoConstraints="NO" id="kus-BI-tJd">
                                 <rect key="frame" x="156.66666666666666" y="110" width="80" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="354-m6-Hkn"/>
@@ -551,6 +561,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="Wepet_Camera"/>
+                                <connections>
+                                    <action selector="Camera_Tapped:" destination="QWf-xi-eXw" eventType="touchUpInside" id="wIL-eD-Zic"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uBH-qL-gxW">
                                 <rect key="frame" x="40" y="232" width="313" height="45"/>
@@ -638,6 +651,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="Wepet_Tap"/>
+                                <connections>
+                                    <action selector="Neuter_Tapped:" destination="QWf-xi-eXw" eventType="touchUpInside" id="DRF-uA-CGo"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="중성화 유무" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AKQ-eM-c40">
                                 <rect key="frame" x="39.999999999999993" y="629" width="64.333333333333314" height="17"/>
@@ -667,6 +683,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="Wepet_Tap"/>
+                                <connections>
+                                    <action selector="Gender_Tapped:" destination="QWf-xi-eXw" eventType="touchUpInside" id="dsq-mp-WZb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ghQ-eo-tpW"/>
@@ -719,6 +738,11 @@
                             <constraint firstItem="YZN-rj-zso" firstAttribute="leading" secondItem="ghQ-eo-tpW" secondAttribute="leading" constant="40" id="yhM-81-D5P"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="GenderTextField" destination="csf-Ts-IJw" id="kEU-Lh-hBf"/>
+                        <outlet property="NeuterTextField" destination="3CB-kN-kqD" id="rEb-WE-CG4"/>
+                        <outlet property="ProfileImage" destination="kus-BI-tJd" id="ogj-JD-sSz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3oq-vd-e15" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -756,7 +780,7 @@
             <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemGray6Color">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
