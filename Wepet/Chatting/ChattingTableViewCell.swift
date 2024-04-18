@@ -1,14 +1,16 @@
 //
-//  AlbaHalTableViewCell.swift
+//  ChattingTableViewCell.swift
 //  Wepet
 //
-//  Created by jaegu park on 14/11/23.
+//  Created by jaegu park on 18/01/24.
 //
 
 import UIKit
 
-class AlbaHalTableViewCell: UITableViewCell {
-
+class ChattingTableViewCell: UITableViewCell {
+    
+    @IBOutlet var chatLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -19,5 +21,4 @@ class AlbaHalTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
 }

@@ -11,19 +11,43 @@ class UserJoinViewController: UIViewController {
     
     @IBOutlet var ProfileImage: UIImageView!
     @IBOutlet var NicknameTextField: UITextField!
+    @IBOutlet var NameTextField: UITextField!
     @IBOutlet var EmailTextField: UITextField!
     @IBOutlet var CodeTextField: UITextField!
     @IBOutlet var PWTextField: UITextField!
+    @IBOutlet var NumberTextField: UITextField!
     @IBOutlet var BDTextField: UITextField!
     @IBOutlet var EmailView: UIStackView!
     @IBOutlet var CodeView: UIStackView!
+    @IBOutlet var NextButton: UIButton!
     
     let imagePickerController = UIImagePickerController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        ProfileImage.layer.cornerRadius = self.ProfileImage.frame.size.height / 2
+        ProfileImage.layer.masksToBounds = true
+        ProfileImage.clipsToBounds = true
+        
+        textFieldDidBeginEditing(NicknameTextField)
+        textFieldDidBeginEditing(NameTextField)
+        textFieldDidBeginEditing(EmailTextField)
+        textFieldDidBeginEditing(CodeTextField)
+        textFieldDidBeginEditing(PWTextField)
+        textFieldDidBeginEditing(NumberTextField)
+        textFieldDidBeginEditing(BDTextField)
+        textFieldDidEndEditing(NicknameTextField)
+        textFieldDidEndEditing(NameTextField)
+        textFieldDidEndEditing(EmailTextField)
+        textFieldDidEndEditing(CodeTextField)
+        textFieldDidEndEditing(PWTextField)
+        textFieldDidEndEditing(NumberTextField)
+        textFieldDidEndEditing(BDTextField)
 
         CodeView.isHidden = true
+
+        NextButton.isEnabled = false
         
         enrollAlertEvent()
         self.imagePickerController.delegate = self
@@ -39,6 +63,18 @@ class UserJoinViewController: UIViewController {
         super.viewWillDisappear(animated)
         
         navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        textField.layer.borderColor = UIColor(named: "MainColor1")?.cgColor
+        textField.layer.cornerRadius = 5
+        textField.layer.borderWidth = 1.0
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        textField.layer.borderColor = UIColor(named: "MainColor1")?.cgColor
+        textField.layer.cornerRadius = 5
+        textField.layer.borderWidth = 1.0
     }
     
     func enrollAlertEvent() {

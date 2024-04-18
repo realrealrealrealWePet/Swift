@@ -11,8 +11,12 @@ import DropDown
 class PetJoinViewController: UIViewController {
     
     @IBOutlet var ProfileImage: UIImageView!
+    @IBOutlet var NameTextField: UITextField!
+    @IBOutlet var KindTextField: UITextField!
+    @IBOutlet var AgeTextField: UITextField!
     @IBOutlet var GenderTextField: UITextField!
     @IBOutlet var NeuterTextField: UITextField!
+    @IBOutlet var JoinButton: UIButton!
     
     let dropGender = DropDown()
     let dropNeuter = DropDown()
@@ -24,9 +28,21 @@ class PetJoinViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        ProfileImage.layer.cornerRadius = self.ProfileImage.frame.size.height / 2
+        ProfileImage.layer.masksToBounds = true
+        ProfileImage.clipsToBounds = true
+        
+        textFieldDidBeginEditing(NameTextField)
+        textFieldDidBeginEditing(KindTextField)
+        textFieldDidBeginEditing(AgeTextField)
+        textFieldDidEndEditing(NameTextField)
+        textFieldDidEndEditing(KindTextField)
+        textFieldDidEndEditing(AgeTextField)
+        
         GenderTextField.isEnabled = false
         NeuterTextField.isEnabled = false
-
+        JoinButton.isEnabled = false
+        
         enrollAlertEvent()
         self.imagePickerController.delegate = self
         
@@ -46,6 +62,18 @@ class PetJoinViewController: UIViewController {
         super.viewWillDisappear(animated)
         
         navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        textField.layer.borderColor = UIColor(named: "MainColor1")?.cgColor
+        textField.layer.cornerRadius = 5
+        textField.layer.borderWidth = 1.0
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        textField.layer.borderColor = UIColor(named: "MainColor1")?.cgColor
+        textField.layer.cornerRadius = 5
+        textField.layer.borderWidth = 1.0
     }
     
     func initUIGender() {

@@ -11,6 +11,9 @@ import DropDown
 class CommunityWritingViewController: UIViewController {
     
     @IBOutlet var CategoryTextField: UITextField!
+    @IBOutlet var ContentView: UIStackView!
+    @IBOutlet var CautionView: UIStackView!
+    
     
     let drop = DropDown()
     let Gender = [" 자유게시판", " 알바해주개", " 알바할개요"]
@@ -19,6 +22,8 @@ class CommunityWritingViewController: UIViewController {
         super.viewDidLoad()
         
         CategoryTextField.isEnabled = false
+        
+        CautionView.isHidden = true
 
         initUI()
         setDropdown()
@@ -64,9 +69,11 @@ class CommunityWritingViewController: UIViewController {
             self!.CategoryTextField.layer.cornerRadius = 5
             self!.CategoryTextField.layer.borderWidth = 1.0
             if index == 0 {
-                
+                self?.CautionView.isHidden = true
             } else if index == 1 {
-                
+                self?.CautionView.isHidden = false
+            } else if index == 2 {
+                self?.CautionView.isHidden = true
             }
         }
         

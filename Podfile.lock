@@ -2,12 +2,20 @@ PODS:
   - Alamofire (5.8.1)
   - DropDown (2.3.13)
   - Pageboy (4.0.2)
+  - Socket.IO-Client-Swift (15.2.0):
+    - Starscream (~> 3.1)
+  - SocketRocket (0.7.0)
+  - Starscream (3.1.1)
+  - StompClientLib (1.4.1):
+    - SocketRocket
   - Tabman (3.0.2):
     - Pageboy (~> 4.0.2)
 
 DEPENDENCIES:
   - Alamofire
   - DropDown
+  - Socket.IO-Client-Swift (~> 15.2.0)
+  - StompClientLib
   - Tabman (~> 3.0)
 
 SPEC REPOS:
@@ -16,13 +24,22 @@ SPEC REPOS:
     - DropDown
     - Pageboy
     - Tabman
+  trunk:
+    - Socket.IO-Client-Swift
+    - SocketRocket
+    - Starscream
+    - StompClientLib
 
 SPEC CHECKSUMS:
   Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
   DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
   Pageboy: 34ff11e8d1041b81769d5bcde9b19a0cb7218bd9
+  Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
+  SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  StompClientLib: ac40390e9660c574675f1c933bec81c8e2811a4f
   Tabman: 6326ec3a792da1c2a6e79c7eddb56af7b591c9d6
 
-PODFILE CHECKSUM: d39dab8a162e0356ae37c46b923c74b3d139aaad
+PODFILE CHECKSUM: 0c932131124c40a4a09ef7000beb970ed14b9a93
 
 COCOAPODS: 1.14.3

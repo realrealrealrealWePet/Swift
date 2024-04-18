@@ -10,5 +10,7 @@ target 'Wepet' do
   pod 'Tabman', '~> 3.0'
   pod 'DropDown'
   pod 'Alamofire'
+  pod 'Socket.IO-Client-Swift', '~> 15.2.0'
+  pod "StompClientLib"
 
 end

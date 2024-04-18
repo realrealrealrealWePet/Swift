@@ -10,13 +10,13 @@ import UIKit
 class LoginViewController: UIViewController {
     
     @IBOutlet var IDTextField: UITextField!
-    
     @IBOutlet var PWTextField: UITextField!
+    @IBOutlet var LoginButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+//        LoginButton.isEnabled = false
     }
     
     override func viewWillAppear(_ animated: Bool) {

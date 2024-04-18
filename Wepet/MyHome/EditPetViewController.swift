@@ -23,6 +23,10 @@ class EditPetViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        ProfileImage.layer.cornerRadius = self.ProfileImage.frame.size.height / 2
+        ProfileImage.layer.masksToBounds = true
+        ProfileImage.clipsToBounds = true
 
         enrollAlertEvent()
         self.imagePickerController.delegate = self
